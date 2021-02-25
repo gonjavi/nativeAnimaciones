@@ -6,12 +6,14 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import Animacion1 from './components/Animacion1';
+import Animacion from './components/Animacion1';
 
 const App = () => {
   return (
     <>
       <View style={styles.contenido}>
-
+        <Animacion1 />
       </View>
      
     </>
